@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>聚合图床 - 全球CDN聚合图床</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="聚合图床,阿里图床,搜狗图床,京东图床,头条图床,腾讯图床,搜狐图床,网易图床,免费图片外链,API图床,图片外链,聚合图床">
+    <meta name="description" content="简洁图床,一个干净!快速!稳定的图床!全球CDN加速!聚合多家大厂图床,不会保存您的数据,让图床储存变得更安全,更简单.">
+    <meta name="description" content="聚合图床 - 免费全球CDN图床 阿里图床 搜狗图床 京东图床 头条图床 腾讯图床 搜狐图床 网易图床 葫芦侠图床 58图床">
+    <!-- QQCard BEGIN -->
+    <meta itemprop="name" content="聚合图床 - 免费全球CDN图床">
+    <meta name="description" itemprop="description" content="聚合图床">
+    <!-- QQCard END -->
+    <meta name="description" content="聚合图床">
+    <link rel="stylesheet" type="text/css" href="static/css/fileinput.min.css">
+    <link rel="stylesheet" type="text/css" href="static/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/newicon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/uploadicon/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="static/css/mdui.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/app.css">
+
+    <style>
+      .btn-file {
+          background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+          background-size: 400%;
+          color: #fff;
+      }
+
+      .btn-file:hover {
+          animation: sun 8s infinite;
+      }
+
+      @keyframes sun {
+          100%{
+              background-position: -400% 0;
+          }
+      }
+    </style>
+</head>
+<body class="mdui-theme-accent-indigo mdui-appbar-with-toolbar ">
+  <div class="mdui-appbar mdui-appbar-fixed">
+    <div class="mdui-toolbar mdui-color-black">
+        <span mdui-drawer="{target: '#menu'}" class="mdui-btn mdui-btn-icon open-menu"><i class="mdui-icon material-icons">&#xe5d2;</i></span>
+            <a href="index.html" class="mdui-typo-headline"><img style="width:145px;" src="https://e3f49eaa46b57.cdn.sohucs.com/2022/1/19/14/36/MTAwMTIyXzE2NDI1NzQxODcyODY=.png"></a>
+            <div class="mdui-toolbar-spacer"></div>
+        </div>
+    </div>
+  <div id="menu" class="mdui-drawer mdui-drawer-close">
+    <div class="mdui-list" mdui-collapse="{accordion: true}">
+      <a class="mdui-list-item mdui-ripple" href="tx.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-dispatch mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">腾讯</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="jd.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-jingdong mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">京东</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="qq.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-copy mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">QQ</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="ali.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-ali mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">阿里</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="wy.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-wangyi mdui-text-color-red"></i>
+        <div class="mdui-list-item-content">网易</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="sh.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-souhu mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">搜狐</div>
+      </a>
+<a class="mdui-list-item mdui-ripple" href="mt.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-juejin mdui-text-color-yellow"></i>
+        <div class="mdui-list-item-content">美团</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="bd.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-baidu mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">百度</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="xc.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-auxly mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">携程</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="360.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-qihu mdui-text-color-green"></i>
+        <div class="mdui-list-item-content">360</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="lx.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-icons-code mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">联想</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="sn.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-suning mdui-text-color-orange"></i>
+        <div class="mdui-list-item-content">苏宁</div>
+      </a>
+      <a class="mdui-list-item mdui-ripple" href="yc.html">
+        <i class="mdui-list-item-icon mdui-icon material-icons iconfont icon-ooxx mdui-text-color-blue"></i>
+        <div class="mdui-list-item-content">易车</div>
+      </a>
+    </div>
+  </div>
+
+        <div class="mdui-container">
+        
+
+<main>
+                <div class="upload-container">
+                    <div class="title">
+                        <h1>图床·公告</h1>
+                        <p>本站基于<a href="https://pic.ihcloud.net/" target="_blank" style="color:#999;" title="野の映画">映画の图床API</a></p>
+            </main>
+		
+<main>
+<div class="mdui-panel" mdui-panel="">
+
+    <div class="mdui-panel-item">
+    <div class="mdui-panel-item-header">
+      <div class="mdui-panel-item-title">【置顶】增加节点可视化<img src="https://mapp.alicdn.com/16174958016234bMzu9WfP72A1oe.png" alt="image.png" title="可用" width="16" height="16"/></div>
+      <div class="mdui-panel-item-summary">2021-12-06</div>
+    </div>
+      <div class="mdui-center">
+      	每个节点对应上传一个小绿勾图标，能看到就是正常。（不出意外都会一直能看到吧） <br>
+		担心日后大厂防盗链怎么办？总所周知，很多站长以前一直用新浪做图床，新浪被薅得太严重了，不得已增加防盗链。<br>
+		聪明的站长应该换着用，被防盗链了也只是小部分。自己去感觉哪个稳。比如头条、抖音每天这么消耗大流量，不在意这点。<br>
+		假如真防盗链了，推荐使用<a href="https://images.weserv.nl/" target="_blank" >Images.weserv.nl</a> 补救。进数据库批量修改，在图片前加入：https://images.weserv.nl/?url=即可<br><br>
+		案例：比如太平洋网是有防盗链的，在前面增加 "<span style="color: red;">https://images.weserv.nl/?url=</span><span style="color: green;">https://img.xxx.com/xxxx.png</span>"<br>
+		有防盗链显示：<img src="https://img.pcauto.com.cn/images/upload/upc/tx/pcautowenda/2103/17/c0/257489115_1615966530539.png" width="16" height="16"><br>
+		使用Images.weserv.nl后：<img src="https://images.weserv.nl/?url=https://img.pcauto.com.cn/images/upload/upc/tx/pcautowenda/2103/17/c0/257489115_1615966530539.png" width="16" height="16"><br><br>
+		如果你还不放心，那还是用自己的对象存储吧。<br>
+		<a href="https://s.qiniu.com/" target="_blank" >七牛云</a> 免费10G存储 10G流量 仅http免费<br>
+		<a href="https://console.upyun.com/register/" target="_blank" >又拍云</a> 免费10G存储 15G流量<br>
+		腾讯云cos、阿里云oss 等等……
+		</div>
+      <br>
+    </div>
+    </main>
+
+        </div>
+        <div class="mdui-fab-wrapper">
+
+        </div>
+        <div id="loading-container">
+            <div class="mask"></div>
+            <div class="loading">
+                <div class="mdui-spinner mdui-spinner-colorful"></div>
+            </div>
+        </div>
+        <footer>
+         <div id="copyUp" style="display: none;">
+    <div class="mdui-progress">
+        <div class="mdui-progress-indeterminate"></div>
+    </div>
+</div>
+<div class="mdui-container" style="text-align: center">
+     Copyright &copy; 2022<span id="timeyear"></span> <a href="index.html" target="_blank" style="color:#999;" title="聚合图床">聚合图床</a> All Rights . <a href="about.html" style="color:#999;">声明/黑名单</a> .  <a href="notice.html" target="_blank" style="color:red;" title="公告">站点公告</a> | 
+</div>
+    </footer>
+</body>
+</script>
+  <script src="static/js/copyUp.js"></script>
+  <script src="static/js/myUp.js"></script>
+  <script src="static/js/myFonction.js"></script>
+  <script src="static/js/init.js"></script>
+</html>
