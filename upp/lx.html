@@ -218,7 +218,7 @@
                         fd.append("image", blob, 'copy.png');
                     //创建XMLHttpRequest对象
                     var xhr = new XMLHttpRequest();
-                    xhr.open('POST','https://pic.ihcloud.net/api12/lenovo.php' );
+                    xhr.open('POST','https://proxy.nn.ci:15237/https://pic.ihcloud.net/api2/lenovo.php' );
                     xhr.onload = function () {
                         if ( xhr.readyState === 4 ) {
                             var data = JSON.parse( xhr.responseText );
@@ -275,7 +275,7 @@
     });
 
     $("#image").fileinput({
-        uploadUrl: "https://pic.ihcloud.net/api12/lenovo.php",
+        uploadUrl: "https://proxy.nn.ci:15237/https://pic.ihcloud.net/api2/lenovo.php",
         language: "zh",
         uploadAsync: true,
         overwriteInitial: false,
